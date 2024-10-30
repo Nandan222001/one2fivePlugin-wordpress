@@ -1,0 +1,27 @@
+{
+  "name": "one2five",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/index.js src/js/chart.js src/js/color-picker.js",
+    "build": "wp-scripts build src/index.js src/js/chart.js src/js/color-picker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^6.10.0",
+    "@wordpress/scripts": "^27.9.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "bootstrap5": "^1.1.9",
+    "clean-css-cli": "^5.6.3",
+    "jquery": "^3.7.1",
+    "sass": "^1.75.0"
+  },
+  "description": ""
+}

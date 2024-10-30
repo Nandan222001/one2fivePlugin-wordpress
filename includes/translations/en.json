@@ -1,0 +1,23 @@
+{
+    "global_settings_title": "one2Five Nandan Review App Global Config Settings",
+    "pass_key_label": "Pass Key",
+    "pass_key_description": "Pass Key for API Access.",
+    "display_code_label": "Display Code",
+    "display_code_description": "Display code for API",
+    "authentication_required_label": "Review Authentication Required",
+    "authentication_required_description": "Enabling this will require reviews to be authenticated before being displayed on site.",
+    "sync_products_label": "Sync Products",
+    "sync_products_description": "Enabling this allows products to sync to One2Five Servers.",
+    "text_case_label": "Text Case",
+    "text_case_description": "Select text case for Button Font.",
+    "primary_color_label": "Primary Color",
+    "primary_color_description": "This applies to all One2Five Plugin buttons.",
+    "accent_color_label": "Accent Color",
+    "accent_color_description": "This applies to all ratings including stars and bars.",
+    "font_color_label": "Font Color",
+    "font_color_description": "This applies to all One2Five Plugin buttons.",
+    "synced_products_title": "Synced Products",
+    "synced_products_description": "Number of products synced",
+    "unsynced_products_title": "Unsynced Products",
+    "unsynced_products_description": "Number of products not synced"
+}

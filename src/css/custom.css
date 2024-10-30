@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../font/static/NotoSans-Regular.ttf') format('ttf'),
+     url('../font/static/NotoSans-Black.ttf') format('ttf'),
+     url('../font/static/NotoSans-BlackItalic.ttf') format('ttf'),
+     url('../font/static/NotoSans-Bold.ttf') format('ttf'),
+     url('../font/static/NotoSans-BoldItalic.ttf') format('ttf'),
+     url('../font/static/NotoSans-ExtraBold.ttf') format('ttf'),
+     url('../font/static/NotoSans-ExtraBoldItalic.ttf') format('ttf'),
+     url('../font/static/NotoSans-Light.ttf') format('ttf'),
+     url('../font/static/NotoSans-SemiBoldItalic.ttf') format('ttf');
+    /* Add other formats if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+/*   
+  body {
+    font-family: 'Noto Sans', sans-serif !important;
+  } */
+  .sec1{
+    font-family: Semibold, Noto Sans, Arial, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  }
+  .sec1 h2{
+    font-family: Semibold, Noto Sans, Arial, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+  .sec1 h1{
+    font-family: Semibold, Noto Sans, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    letter-spacing: 3px !important;
+  }
+  .one2five-bootstrap .star i.active{
+    font-size: 16px;
+    color: #ffd905;
+  }
+  .one2five-bootstrap .star i{
+    font-size: 16px;
+    color:#acacac;
+  }
+  .user_star i.active{
+    font-size: 22px;
+    color:#ffd905;
+  }
+  .user_star i{
+    font-size: 22px;
+    color:#acacac;
+  }
+  .shop-star i.active{
+    font-size: 16px;
+    color:#ffd905;
+  }
+  .shop-star i{
+    font-size: 16px;
+    color:#acacac;
+  }
+  .one2five-bootstrap .star{
+    order:2;
+    padding: 0;
+    margin-top:05px;
+  }
+  .shop-star{
+    order:2;
+    padding: 0;
+    margin-top:05px;
+  }
+  
+.chart {
+    position: relative !important;
+    display: inline-block !important;
+    text-align: center !important;
+  }
+  
+  .percent {
+    position: absolute !important;
+    top: 45% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+  .chart canvas {
+    width: 60px !important; /* Adjust width as needed */
+    height: 60px !important; /* Adjust height as needed */
+  }
+ .write {
+    padding: 10px 0 14px !important;
+  }
+
+  
+  
+  /* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #dcdcdc;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Individual bars */
+.bar-5 {
+  height: 10px;
+  border-radius: 15px;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+  .side,
+  .middle {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+
+.offcanvas {
+    /* Your offcanvas styles */
+    transition: transform 0.5s ease-in-out; /* Adjust the duration and easing as needed */
+}
+
+.offcanvas.show {
+    transform: translateX(0%);
+}
+
+.offcanvas.hide {
+    transform: translateX(100%);
+}
+
+.wc-block-components-product-rating__container,
+.woocommerce .wc-block-components-product-rating__container {
+  display: none !important;
+}
+
+.review-text{
+  cursor:pointer;
+}
+
+.review-text:hover {
+  text-decoration: underline;
+}

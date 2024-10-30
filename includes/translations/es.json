@@ -1,0 +1,23 @@
+{
+    "global_settings_title": "Configuración Global de la Aplicación de Reseñas one2Five",
+    "pass_key_label": "Clave de acceso",
+    "pass_key_description": "Clave de acceso para la API.",
+    "display_code_label": "Código de visualización",
+    "display_code_description": "Código de visualización para la API",
+    "authentication_required_label": "Autenticación Requerida",
+    "authentication_required_description": "Activar esto requerirá que las reseñas estén autenticadas antes de mostrarse.",
+    "sync_products_label": "Sincronizar productos",
+    "sync_products_description": "Permite sincronizar los productos con los servidores One2Five.",
+    "text_case_label": "Caso de texto",
+    "text_case_description": "Selecciona el caso del texto para la fuente del botón.",
+    "primary_color_label": "Color principal",
+    "primary_color_description": "Se aplica a todos los botones del plugin One2Five.",
+    "accent_color_label": "Color de acento",
+    "accent_color_description": "Se aplica a todas las calificaciones, incluidas estrellas y barras.",
+    "font_color_label": "Color de fuente",
+    "font_color_description": "Se aplica a todos los botones del plugin One2Five.",
+    "synced_products_title": "Productos sincronizados",
+    "synced_products_description": "Número de productos sincronizados",
+    "unsynced_products_title": "Productos no sincronizados",
+    "unsynced_products_description": "Número de productos no sincronizados"
+}

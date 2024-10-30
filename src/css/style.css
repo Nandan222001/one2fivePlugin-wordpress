@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Assistant'; 
+    src: url('../font/Assistant/static/Assistant-Regular.ttf') format('ttf'), /* Replace 'path/to/font.woff2' with the path to your font file */
+       
+}
+
+.one2five-bootstrap .offcanvas-body {
+    font-family: 'Assistant', sans-serif !important; 
+    letter-spacing: 0.06rem !important;
+    line-height: calc(1 + 0.8 / 1.0) !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    padding: 0%;
+}
+.offcanvas-body h2{
+    font-family: 'Assistant', sans-serif !important; 
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+}
+.offcanvas-body p{
+    font-family: 'Assistant', sans-serif !important; 
+    font-size: 12px !important;
+    letter-spacing: 0.06rem  !important;
+    font-weight: 200  !important;
+    line-height: calc(1 + 0.8 / 1.0)  !important;
+    color: rgba(18,18,18, 0.75)  !important;
+}
+/* @media screen and (min-width: 750px) {
+    body {
+        font-size: 1.6rem  !important;
+    }
+} */
+
+
+@media screen and (max-width: 768px) {
+.modal-content {
+    width: 100% !important;
+}
+}
+
+.modal-content {
+    width: 450px !important;
+}
+
+.one2five-bootstrap .star label {
+    font-size: 48px !important; /* Adjust font size as needed */
+    cursor: pointer;
+}
+
+.one2five-bootstrap .star .star-radio.visually-hidden {
+    position: absolute  !important;
+    overflow: hidden   !important;
+    clip: rect(0 0 0 0)   !important;
+    height: 1px    !important;
+    width: 1px      !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+.one2five-bootstrap .star {
+    display: flex !important;
+    grid-gap: 02px !important;
+    align-items: center;
+}
+
+.one2five-bootstrap .star label {
+    font-size:20px !important; /* Adjust font size as needed */
+    cursor: pointer !important;
+    color: #dcdcdc !important; /* Default star color */
+}
+
+.one2five-bootstrap .star .star-radio.visually-hidden {
+    position: absolute !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    width: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+
+
+  .offcanvas-body label {
+    display: block !important;
+    margin-bottom: 8px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.required {
+    color: red !important;
+}
+
+.design-rating {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.design-label {
+    font-size: 24px !important; /* Adjust font size as needed */
+    margin-right: 10px !important; /* Adjust margin between labels */
+    cursor: pointer !important;
+}
+
+.design-radio.visually-hidden {
+    position: absolute !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    width: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.design-line::before {
+    content: '';
+    margin-left: 10px !important; /* Adjust spacing between the line and the content */
+    display: inline-block !important;
+    width: 30px; /* Adjust width of the line */
+    height: 4px; /* Adjust thickness of the line */
+    background-color: #888; /* Adjust color of the line */
+}
+
+
+.functionality-rating {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.functionality-label {
+    font-size: 24px !important; /* Adjust font size as needed */
+    margin-right: 10px !important; /* Adjust margin between labels */
+    cursor: pointer !important;
+}
+
+.functionality-radio.visually-hidden {
+    position: absolute !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    width: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.functionality-line::before {
+    content: '';
+    margin-left: 10px; /* Adjust spacing between the line and the content */
+    display: inline-block;
+    width: 30px; /* Adjust width of the line */
+    height: 4px; /* Adjust thickness of the line */
+    background-color: #888; /* Adjust color of the line */
+}
+
+
+.quality-rating {
+    display: flex;
+    align-items: center;
+}
+
+.quality-label {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-right: 10px; /* Adjust margin between labels */
+    cursor: pointer;
+}
+
+.quality-radio.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.quality-line::before {
+    content: '';
+    margin-left: 10px; /* Adjust spacing between the line and the content */
+    display: inline-block;
+    width: 30px; /* Adjust width of the line */
+    height: 4px; /* Adjust thickness of the line */
+    background-color: #888; /* Adjust color of the line */
+}
+
+
+
+.one2five-bootstrap button {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: calc(1 + .2 / 1.0);
+    padding: 12px !important;
+}
+#offcanvasheading{
+    font-family: 'Assistant', sans-serif !important; 
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: calc(0.06rem);
+    line-height: calc(1 + 0.3 / max(1, 1.0));
+    word-break: break-word;
+}
+
+.offcanvas-body label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#email, #name, #opinion, #title {
+    height: 40px;
+    border-radius: 5px !important;
+}
+#termsAgreement ,#inlineRadio1 ,#inlineRadio2 {
+    font-size: 14px;
+}
+.form-check-inline {
+    margin: 0%;
+}
+.form-check {
+    padding-left: 25px;
+}
+#email::placeholder ,#name::placeholder ,#title::placeholder ,#opinion::placeholder{
+    font-size: 12px !important; /* Adjust the font size as needed */
+}
+#opinion {
+    height:150px !important;
+}
+#tick {
+    font-size: 12px !important;
+    font-weight: 200 !important;
+    color: rgba(18,18,18, 0.75);
+}
+
+.invalid-feedback {
+    font-size: 15px !important;
+    font-family: 'Assistant', sans-serif !important; 
+ }
+
+.woocommerce-product-rating{
+    display:none !important;
+ }

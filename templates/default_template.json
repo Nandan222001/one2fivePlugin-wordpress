@@ -1,0 +1,185 @@
+{
+    "global_settings_title": {
+        "label": "Global Settings for one2Five Reviews",
+        "description": "Global settings for one2Five reviews"
+    },
+    "pass_key": {
+        "label": "Access Key",
+        "description": "Access key for the API."
+    },
+    "display_code": {
+        "label": "Display Code",
+        "description": "Display code for the API."
+    },
+    "authentication_required": {
+        "label": "Authentication Required",
+        "description": "If enabled, requires authentication before displaying reviews."
+    },
+    "sync_products": {
+        "label": "Product Synchronization",
+        "description": "Allows product synchronization with the One2Five server."
+    },
+    "text_case": {
+        "label": "Text Case",
+        "description": "Select the text case for the button source."
+    },
+    "primary_color": {
+        "label": "Primary Color",
+        "description": "Applies to all buttons in the one2Five plugin."
+    },
+    "accent_color": {
+        "label": "Accent Color",
+        "description": "Applies to stars and stripes."
+    },
+    "font_color": {
+        "label": "Font Color",
+        "description": "Applies to all buttons in the one2Five plugin."
+    },
+    "synced_products": {
+        "label": "Synced Products",
+        "description": "Number of synchronized products."
+    },
+    "unsynced_products": {
+        "label": "Unsynced Products",
+        "description": "Number of unsynchronized products."
+    },
+    "welcome": {
+        "label": "Welcome!",
+        "description": "Share your opinions by writing a review for your product so we can create better mechanics. This helps others in making a choice."
+    },
+    "write_review": {
+        "label": "Write Your Review",
+        "description": "Share your opinions as a guest or by logging in!"
+    },
+    "your_rating": {
+        "label": "Your Rating",
+        "description": "Your rating"
+    },
+    "design": {
+        "label": "Design",
+        "description": "What do you think of the design of your device?"
+    },
+    "functionality": {
+        "label": "Functionality",
+        "description": "Is your device working as expected?"
+    },
+    "quality": {
+        "label": "Quality",
+        "description": "How good is your device?"
+    },
+    "your_nickname": {
+        "label": "Your Nickname",
+        "description": "Enter your nickname. This name will appear with your review. Please do not use your full name. If you do, the review will not be published."
+    },
+    "your_email": {
+        "label": "Your Email Address",
+        "description": "Enter your email address. Please provide your email address to verify your review. We won't send spam!"
+    },
+    "review_title": {
+        "label": "Title Your Review",
+        "description": "Please provide a brief title for your review!"
+    },
+    "write_your_review": {
+        "label": "Write Your Review Here.",
+        "description": "Write your honest opinions here. We thank you in advance for your honesty."
+    },
+    "useful_reviews": {
+        "label": "Most Useful Customer Reviews",
+        "description": "Reviews on the product, its usability, quality, and design. If you have any questions regarding servicing, delivery, or installation, contact our customer service."
+    },
+    "recommend_product": {
+        "label": "Would you recommend this product?",
+        "description": "Would you recommend this product?",
+        "options": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "terms_conditions": {
+        "label": "I have read and agree to the Terms and Conditions.",
+        "description": "I have read and agree to the Terms and Conditions."
+    },
+    "success": {
+        "title": "🎉 Success!",
+        "label": "Success",
+        "description": "Success",
+        "message": [
+            "Thank you for your review! 🙌",
+            "Your feedback is very important. It helps us improve our products and serve you better. 😊",
+            "Stay tuned for more exciting updates and offers! 🚀"
+        ],
+        "closeButton": "Close"
+    },
+    "term_conditions": {
+        "title": "Terms and Conditions",
+        "label": "Terms and Conditions",
+        "description": "Terms and Conditions"
+    },
+    "link": {
+        "label": "URL",
+        "description": "https://www.google.com/"
+    },
+    "manage_languages": {
+        "label": "Manage Languages",
+        "description": "Manage languages used for reviews.",
+        "add_language": {
+            "label": "Add Language",
+            "placeholder": "Enter language name..."
+        },
+        "upload_json": {
+            "label": "Upload JSON File",
+            "description": "No file selected"
+        },
+        "download_template": {
+            "label": "Download Default JSON Template"
+        },
+        "added_languages": {
+            "label": "Added Languages",
+            "headers": {
+                "language": "Language",
+                "json_file": "JSON File",
+                "actions": "Actions"
+            }
+        },
+        "language_file": {
+            "label": "Language File",
+            "description": "Download default JSON template."
+        },
+         "edit": {
+            "label": "Edit"
+        },
+        "delete": {
+            "label": "Delete"
+        },
+        "download_json": {
+            "label": "Download JSON"
+        }
+    },
+    
+    "edit_language": {
+        "page_title": "Edit Language",
+        "add_entry_button": "Add New Entry",
+        "existing_entries": "Existing Entries",
+        "keyword": "Keyword",
+        "label": "Label",
+        "description": "Description",
+        "actions": "Actions",
+        "edit_entry": "Edit Entry",
+        "delete_entry": "Delete Entry",
+        "terms_conditions": "Edit Terms and Conditions URL",
+        "save_entry_button": "Save Entry",
+        "update_entry_button": "Update Entry"
+    },
+    "no_reviews_found": {
+        "label": "No reviews found for this product",
+        "description": "Message displayed when no reviews are available for the product."
+    },
+    "leave_a_review": {
+        "label": "Leave a Review",
+        "description": "Button label prompting users to leave a review."
+    },
+    "reviews": {
+        "label": "Reviews",
+        "description": "Section title or label for displaying reviews."
+    }
+}
